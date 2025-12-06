@@ -29,7 +29,7 @@
 
 * **Framework:** Next.js 16 (App Router)
 * **Language:** TypeScript
-* * **Validation:** Zod
+* **Validation:** Zod
 * **Database:**  MongoDB
 * **AI Provider:** Groq Cloud
 * **Styling:** Tailwind CSS
