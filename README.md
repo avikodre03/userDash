@@ -15,13 +15,13 @@
 * **📝 Full CRUD:** Create, Read, Update, and Delete operations.
 * **🤖 AI Chat Assistant:** Ultra-fast AI chat powered by **Groq SDK** (Llama 3 / Mixtral).
 * **🎨 Modern UI:** Built with Tailwind CSS and Shadcn/UI components.
-* **🚀 Deployment Ready:** Configured for Vercel.
+* **🚀 Deployment Ready:** Configured for Vercel.(please use incase Incognito)
 
 ---
 
 ## 🚀 Live Demo
 
-[**🔗 Click Here to View Live Deployment**](https://user-dash-jr01lma0f-avikodre03s-projects.vercel.app/)
+[**🔗 Click Here to View Live Deployment**]([https://your-deployment-link.vercel.app](https://user-dash-qlo5.vercel.app/)))
 
 ---
 
