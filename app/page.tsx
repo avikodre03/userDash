@@ -1,10 +1,13 @@
+export const dynamic = "force-dynamic"; 
+// OR: export const revalidate = 0;
+
 import AIBox from "@/components/AIBox";
 import { Header } from "@/components/Header";
 import { HomeClient } from "@/components/HomeClient";
 
 async function getInitialUsers() {
   try {
-    const res = await fetch(`/api/users?limit=5&page=1`, {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users?limit=5&page=1`, {
       cache: "no-store",
     });
 
@@ -21,19 +24,17 @@ async function getInitialUsers() {
   }
 }
 
-
 export default async function Home() {
   const data = await getInitialUsers();
 
-  // Handle backend response structure (data.users or data directly)
   const users = data.users || [];
   const totalPages = data.totalPages || 0;
 
   return (
     <>
-     <AIBox />
+      <AIBox />
       <Header />
-      <HomeClient initialUsers={users} initialTotalPages={totalPages} />;
+      <HomeClient initialUsers={users} initialTotalPages={totalPages} />
     </>
-  )
+  );
 }

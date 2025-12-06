@@ -4,7 +4,6 @@ import { User } from "@/models/User";
 import { createUserSchema } from "@/validation/userSchema";
 import { verifyToken } from "@/lib/auth";
 import { cookies } from "next/headers";
-import bcrypt from "bcryptjs";
 
 export async function GET(req: Request) {
   try {
