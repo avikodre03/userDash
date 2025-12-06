@@ -1,4 +1,4 @@
-# ⚡ Next.js Full-Stack AI Dashboard
+# ⚡ Next.js Full-Stack - UserDash
 
 > A complete full-stack application featuring User Management, CRUD operations, and an integrated AI Chatbot powered by the Groq SDK.
 
@@ -10,7 +10,7 @@
 ## 🌟 Features
 
 * **🔐 Secure Authentication:** Login and Registration flow.
-* * **🛡️ Data Validation:** End-to-end type safety and schema validation using **Zod**.
+* **🛡️ Data Validation:** End-to-end type safety and schema validation using **Zod**.
 * **📊 User Dashboard:** Admin panel for managing application data.
 * **📝 Full CRUD:** Create, Read, Update, and Delete operations.
 * **🤖 AI Chat Assistant:** Ultra-fast AI chat powered by **Groq SDK** (Llama 3 / Mixtral).
