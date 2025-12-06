@@ -51,12 +51,16 @@ JWT_SECRET="your_generated_secret_here"
 GROQ_API_KEY=""
 
 git clone [https://github.com/avikodre03/userDash.git](https://github.com/avikodre03/userDash.git)
-cd your-repo-name
+
+cd userDash
+
 npm install
 # or
 yarn install
 
 npm run dev
+
 Role,Email,Password
 Admin,avi@03.com,avi123
+
 
