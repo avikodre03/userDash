@@ -21,7 +21,7 @@
 
 ## 🚀 Live Demo
 
-[**🔗 Click Here to View Live Deployment**](https://user-dash-qlo5.vercel.app/)
+[**🔗 Click Here to View Live Deployment**](https://user-dash-jr01lma0f-avikodre03s-projects.vercel.app/)
 
 ---
 
